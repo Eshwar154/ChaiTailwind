@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChaiTailwind Demo</title>
+</head>
+<body>
+
+
+  <div class="chai-bg-steelblue chai-p-20 chai-text-center">
+    <h1 class="chai-text-white chai-fs-28 chai-mb-8">ChaiTailwind ☕</h1>
+    <p class="chai-text-white chai-fs-14">Utility-first CSS, powered by JavaScript</p>
+  </div>
+
+
+  <div class="chai-flex chai-p-16 chai-bg-whitesmoke">
+    <div class="chai-bg-white chai-p-16 chai-m-8 chai-rounded chai-border">
+      <h3 class="chai-fs-16 chai-mb-4">Spacing</h3>
+      <p class="chai-fs-12 chai-text-gray">chai-p-* and chai-m-*</p>
+    </div>
+    <div class="chai-bg-white chai-p-16 chai-m-8 chai-rounded chai-border">
+      <h3 class="chai-fs-16 chai-mb-4">Colors</h3>
+      <p class="chai-fs-12 chai-text-gray">chai-bg-* and chai-text-*</p>
+    </div>
+    <div class="chai-bg-white chai-p-16 chai-m-8 chai-rounded chai-border">
+      <h3 class="chai-fs-16 chai-mb-4">Typography</h3>
+      <p class="chai-fs-12 chai-text-gray">chai-fs-* and chai-text-center</p>
+    </div>
+  </div>
+
+  <div class="chai-p-16 chai-text-center">
+    <button class="chai-bg-steelblue chai-text-white chai-p-10 chai-rounded chai-m-4">
+      Primary
+    </button>
+    <button class="chai-bg-tomato chai-text-white chai-p-10 chai-rounded chai-m-4">
+      Danger
+    </button>
+    <button class="chai-bg-white chai-text-steelblue chai-p-10 chai-rounded chai-border chai-m-4">
+      Outline
+    </button>
+    <button class="chai-hover-bg-blue chai-hover-text-white chai-bg-white chai-p-10 chai-rounded chai-border chai-m-4">
+        Hover Me
+    </button>
+
+    <button class="chai-bg-white chai-text-steelblue chai-p-10 chai-rounded chai-border chai-m-4" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<div class="chai-dark-bg chai-dark-text">
+  This div changes in dark mode
+</div>
+  </div>
+
+  <script src="chai.js"></script>
+</body>
+</html>
